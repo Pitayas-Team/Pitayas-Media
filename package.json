@@ -1,7 +1,7 @@
 {
   "name": "pitayas-media",
   "version": "0.1.0-beta",
-  "description": "Pitayas Media - pobieranie filmów (yt-dlp, linki, torrenty z Pitaya Streams) i wysyłanie ich na telefon",
+  "description": "Pitayas Media - pobieranie filmów i muzyki, także na telefon",
   "author": "Pitayas <inbox@rakunek.com>",
   "main": "main.js",
   "scripts": {
@@ -27,7 +27,9 @@
     },
     "files": [
       "**/*",
-      "!dist/**"
+      "!dist/**",
+      "!node_modules/**/test/**",
+      "!node_modules/**/tests/**"
     ],
     "win": {
       "target": [
