@@ -22,7 +22,8 @@
     "appId": "com.pitayas.media",
     "productName": "Pitayas-Media",
     "directories": {
-      "output": "dist"
+      "output": "dist",
+      "buildResources": "build"
     },
     "files": [
       "**/*",
@@ -41,7 +42,7 @@
       ],
       "executableName": "pitayas-media",
       "category": "AudioVideo",
-      "icon": "icon.png",
+      "icon": "build/icons",
       "maintainer": "Pitayas <inbox@rakunek.com>"
     },
     "rpm": {
